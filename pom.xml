@@ -11,6 +11,7 @@
 	<groupId>com.students</groupId>
 	<artifactId>StudentDetails_C</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>StudentDetails_C</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -54,6 +55,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>${project.name}test</finalName>
 	</build>
 
 </project>
