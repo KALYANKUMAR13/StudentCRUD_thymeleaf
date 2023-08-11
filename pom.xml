@@ -52,10 +52,7 @@
 			</plugin>
 		</plugins>
 		<finalName>${project.name}test</finalName>
-		 
-                <testResource>
-                    <directory>src/main/webapp</directory>
-                </testResource>
+		
    
 	</build>
 
